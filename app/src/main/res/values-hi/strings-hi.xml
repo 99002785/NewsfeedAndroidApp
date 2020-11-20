@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">लोकप्रिय समाचार</string>
+    <string name="enter_name">नाम दर्ज</string>
+    <string name="enter_pswd">पास वर्ड दर्ज करें</string>
+    <string name="remember_pswd">पासवर्ड याद रखें</string>
+    <string name="Login">लॉग इन करें</string>
+    <string name="Register">रजिस्टर करें</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">समायोजन</string>
+
+    <!-- Strings for items in activity_main_drawer.xml -->
+    <string name="ic_title_home">घर</string>
+    <string name="ic_title_world">विश्व</string>
+    <string name="ic_title_science">विज्ञान</string>
+    <string name="ic_title_sport">खेल</string>
+    <string name="ic_title_environment">वातावरण</string>
+    <string name="ic_title_society">समाज</string>
+    <string name="ic_title_fashion">फैशन</string>
+    <string name="ic_title_business">व्यापार</string>
+    <string name="ic_title_culture">संस्कृति</string>
+
+    <!-- Text to display in the list when there are no news [CHAR LIMIT=NONE] -->
+    <string name="no_news">No news found.</string>
+
+    <!-- Error message when there is no internet connectivity [CHAR LIMIT=NONE] -->
+    <string name="no_internet_connection">You are offline. \nPlease check your Internet
+        connection.</string>
+
+    <!-- Content description of the image -->
+    <string name="image_des">Image</string>
+    <string name="image_des_ic_share">Share</string>
+
+    <string name="updated_just_now">Updated just now</string>
+    <string name="share_article">Share Article</string>
+
+    <string name="the_guardian">विषय</string>
+
+    <!-- Strings for Section -->
+    <string name="world">विश्व</string>
+    <string name="science">विज्ञान</string>
+    <string name="sport">खेल</string>
+    <string name="environment">वातावरण</string>
+    <string name="society">समाज</string>
+    <string name="fashion">फैशन</string>
+    <string name="business">व्यापार</string>
+    <string name="culture">संस्कृति</string>
+
+    <string name="hint_num_of_items">1 से 50 के बीच</string>
+
+    <!--Strings to be used for the Preference Labels -->
+    <string name="settings_number_of_items_label">वस्तुओ की संख्या</string>
+    <string name="settings_number_of_items_key" translatable="false">वस्तुओ की संख्या</string>
+    <string name="settings_number_of_items_default" translatable="false">10</string>
+
+    <!-- Strings for Order-By preference [CHAR LIMIT=30] -->
+    <string name="settings_order_by_label">द्वारा आदेश</string>
+    <string name="settings_order_by_key" translatable="false">द्वारा आदेश</string>
+    <string name="settings_order_by_default" translatable="false">@string/settings_order_by_newest_value</string>
+
+    <!-- Label for order-by newest option [CHAR LIMIT=20] -->
+    <string name="settings_order_by_newest_label">नवीनतम</string>
+    <string name="settings_order_by_newest_value" translatable="false">नवीनतम</string>
+
+    <!-- Label for order-by oldest option [CHAR LIMIT=20] -->
+    <string name="settings_order_by_oldest_label">सबसे पुराना</string>
+    <string name="settings_order_by_oldest_value" translatable="false">सबसे पुराना</string>
+
+    <!-- Label for order-by relevance option [CHAR LIMIT=20]-->
+    <string name="settings_order_by_relevance_label">प्रासंगिकता</string>
+    <string name="settings_order_by_relevance_value" translatable="false">प्रासंगिकता</string>
+
+    <!-- Strings for From Date preference [CHAR LIMIT=30] -->
+    <string name="settings_from_date_label">तारीख से</string>
+    <string name="settings_from_date_key" translatable="false">तारीख से</string>
+    <string name="settings_from_date_default" translatable="false">2010-01-01</string>
+
+    <!-- Strings for Order Date preference [CHAR LIMIT=30] -->
+    <string name="settings_order_date_label">आदेश की तारीख</string>
+    <string name="settings_order_date_key" translatable="false">आदेश की तारीख</string>
+    <string name="settings_order_date_default" translatable="false">@string/settings_order_date_published_value</string>
+
+    <!-- Label for order-date published option [CHAR LIMIT=20]-->
+    <string name="settings_order_date_published_label">आदेश की तारीख</string>
+    <string name="settings_order_date_published_value" translatable="false">आदेश की तारीख</string>
+
+    <!-- Label for order-date newspaper-edition option [CHAR LIMIT=30]-->
+    <string name="settings_order_date_newspaper_edition_label">समाचार पत्र संस्करण</string>
+    <string name="settings_order_date_newspaper_edition_value" translatable="false">समाचार पत्र संस्करण</string>
+
+    <!-- Label for order-date last-modified option [CHAR LIMIT=30]-->
+    <string name="settings_order_date_last_modified_label">अंतिम बार संशोधित</string>
+    <string name="settings_order_date_last_modified_value" translatable="false">अंतिम बार संशोधित</string>
+
+    <!-- Strings for Color-Theme preference [CHAR LIMIT=30] -->
+    <string name="settings_color_label">रंग थीम</string>
+    <string name="settings_color_key">रंग थीम</string>
+    <string name="settings_color_default">सफेद</string>
+
+    <!-- Label for color theme white preference [CHAR LIMIT=20] -->
+    <string name="settings_color_white_label">सफेद</string>
+    <string name="settings_color_white_value">सफेद</string>
+
+    <!-- Label for color theme sky blue preference [CHAR LIMIT=20] -->
+    <string name="settings_color_sky_blue_label">आसमानी नीला</string>
+    <string name="settings_color_sky_blue_value">आसमानी नीला</string>
+
+    <!-- Label for color theme dark blue preference [CHAR LIMIT=20] -->
+    <string name="settings_color_dark_blue_label">नीला</string>
+    <string name="settings_color_dark_blue_value">नीला</string>
+
+    <!-- Label for color theme violet preference [CHAR LIMIT=20] -->
+    <string name="settings_color_violet_label">
+बैंगनी</string>
+    <string name="settings_color_violet_value">
+बैंगनी</string>
+
+    <!-- Label for color theme light green preference [CHAR LIMIT=20] -->
+    <string name="settings_color_light_green_label">हल्का हरा</string>
+    <string name="settings_color_light_green_value">हल्का हरा</string>
+
+    <!-- Label for color theme green preference [CHAR LIMIT=20] -->
+    <string name="settings_color_green_label">हरा</string>
+    <string name="settings_color_green_value">हरा</string>
+
+    <!-- Strings for Text Size preference [CHAR LIMIT=30] -->
+    <string name="settings_text_size_label">शब्दों का आकर</string>
+    <string name="settings_text_size_key" translatable="false">शब्दों का आकर</string>
+    <string name="settings_text_size_default" translatable="false">@string/settings_text_size_medium_value</string>
+
+    <!-- Label for text size small preference [CHAR LIMIT=20] -->
+    <string name="settings_text_size_small_label">छोटा
+</string>
+    <string name="settings_text_size_small_value" translatable="false">छोटा
+</string>
+
+    <!-- Label for text size medium preference [CHAR LIMIT=20] -->
+    <string name="settings_text_size_medium_label">
+मध्यम</string>
+    <string name="settings_text_size_medium_value" translatable="false">
+मध्यम</string>
+
+    <!-- Label for text size large preference [CHAR LIMIT=20] -->
+    <string name="settings_text_size_large_label">विशाल</string>
+    <string name="settings_text_size_large_value" translatable="false">विशाल</string>
+
+</resources>
